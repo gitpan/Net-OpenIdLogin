@@ -1,0 +1,53 @@
+{
+   "abstract" : "OpenID Login module - A simple lightweight OpenId Consumer with very few dependencies",
+   "author" : [
+      "Holger Eiboeck <realholgi@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120530",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Net-OpenIdLogin",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "LWP::UserAgent" : "0",
+            "List::MoreUtils" : "0",
+            "Moose" : "0.51",
+            "Moose::Util::TypeConstraints" : "0",
+            "URI" : "0",
+            "URI::Escape" : "0",
+            "strict" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "CGI" : "0",
+            "Test::Mock::LWP::Dispatch" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://github.com/realholgi/Net-OpenIdLogin",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/realholgi/Net-OpenIdLogin.git",
+         "web" : "http://github.com/realholgi/Net-OpenIdLogin"
+      }
+   },
+   "version" : "0.1.0"
+}
+

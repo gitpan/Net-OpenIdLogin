@@ -1,0 +1,30 @@
+---
+abstract: 'OpenID Login module - A simple lightweight OpenId Consumer with very few dependencies'
+author:
+  - 'Holger Eiboeck <realholgi@cpan.org>'
+build_requires:
+  CGI: 0
+  Test::Mock::LWP::Dispatch: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300009, CPAN::Meta::Converter version 2.120530'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-OpenIdLogin
+requires:
+  Carp: 0
+  LWP::UserAgent: 0
+  List::MoreUtils: 0
+  Moose: 0.51
+  Moose::Util::TypeConstraints: 0
+  URI: 0
+  URI::Escape: 0
+  strict: 0
+resources:
+  homepage: http://github.com/realholgi/Net-OpenIdLogin
+  repository: git://github.com/realholgi/Net-OpenIdLogin.git
+version: 0.1.0
